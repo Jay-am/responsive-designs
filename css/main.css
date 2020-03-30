@@ -1,17 +1,14 @@
-$primary-clr: lightgrey;
-
 body {
-  background: $primary-clr;
-}
+  background: lightgrey; }
 
 img {
   width: 100px;
-  border-radius: 5px;
-}
+  border-radius: 5px; }
 
 .wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   grid-auto-flow: dense;
-  grid-gap: 5px;
-}
+  grid-gap: 5px; }
+
+/*# sourceMappingURL=main.css.map */
