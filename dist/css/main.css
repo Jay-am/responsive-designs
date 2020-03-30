@@ -1,2 +1,16 @@
 body {
-  background: blue; }
+  background: lightgrey; }
+
+img {
+  width: 200px;
+  border-radius: 5px; }
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-auto-flow: dense;
+  grid-gap: 5px; }
+
+.buns {
+  grid-template-columns: span 2;
+  grid-template-rows: span 2; }
