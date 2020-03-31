@@ -16,7 +16,7 @@ img {
   grid-gap: 5px;
 }
 
-.buns {
-  grid-columns: auto / span 2;
-  grid-rows: auto / span 2;
+.big {
+  grid-column: span 2;
+  grid-row: span 2;
 }
