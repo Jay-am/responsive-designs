@@ -17,6 +17,6 @@ img {
 }
 
 .buns {
-  grid-template-columns: span 2;
-  grid-template-rows: span 2;
+  grid-columns: auto / span 2;
+  grid-rows: auto / span 2;
 }
